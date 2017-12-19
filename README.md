@@ -3,7 +3,7 @@ Satoshi Wallet Generator
 
 Paper wallet generator for the openpaperwallet system.
 
---not yet hosted
+Currently hosted here: http://satoshipaperwallet.com/
 
 OpenPaperWallet, software, logos and documentation are copyright RootEleven (rooteleven.com), released under open source licenses as listed inside the HTML comments.
 Originally derived from bitaddress.org v2.4.
