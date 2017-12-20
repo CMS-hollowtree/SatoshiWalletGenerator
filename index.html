@@ -12018,7 +12018,7 @@
 					//0 - Start - Select number of pages
 					step_name: "Choose currency and select total pages",
 					pre_actions: [],
-					html: "<div>Welcome to Open Paper Wallet. Follow these easy steps to create your paper wallet. <br>First select which currency you want and how many pages you want to print. There are four wallets per page. Press next when you've entered a number.</div><div align='center'><label>Currency: </label><select id='selectcurrency' onchange='opw.paperwallet.setCurrency()' value><option id='bitcoinoption' value='bitcoin'>Bitcoin</option></select><label id='paperlabelpagestogenerate'>Pages to generate:</label><input type='number' id='paperlimit' value=1 /><input type='button' onclick='opw.ui.nextStep()' value='Next'/></div>",
+					html: "<div>Welcome to Satoshi Paper Wallet Generator. Follow these easy steps to create your paper wallet. <br>First select which currency you want and how many pages you want to print. There are four wallets per page. Press next when you've entered a number.</div><div align='center'><label>Currency: </label><select id='selectcurrency' onchange='opw.paperwallet.setCurrency()' value><option id='bitcoinoption' value='bitcoin'>Bitcoin</option></select><label id='paperlabelpagestogenerate'>Pages to generate:</label><input type='number' id='paperlimit' value=1 /><input type='button' onclick='opw.ui.nextStep()' value='Next'/><br><br><img src='img/wallet_designs/Green.jpg' width='100%' height='100%'></img></div>",
 					post_actions: [{fnc: opw.paperwallet.showCurrentCurrency, parameters: null}]
 				},
 				{
@@ -12693,12 +12693,18 @@
 		<div class="footer_inner">
 			For secure wallet generation, do not print wallets "live" from SatoshiPaperWallet.com.
 			Instead, download this generator from GitHub and run the HTML as a "local" file:
-		</div>
-		<div class="footer_inner">
+
 			<a href="https://github.com/conman1136/SatoshiWalletGenerator" title="SatoshiWalletGenerator">SatoshiPaperWalletGenerator on github</a>
 			This software was forked and modified from openpaperwallet.
 			<a href="https://github.com/openpaperwallet/walletprinter" title="OpenPaperWallet">OpenPaperWallet on github</a>
 			This software is licensed under multiple open source licenses, see the source HTML.
+		</div>
+
+		<div class="footer_inner">
+			<h4>Donations keep this service open & free!</h4>
+			<p>
+				<strong>BTC:</strong> 15zGeNKgjGVajXa8nZkx3pjzopEcSCZspZ<br>
+				<strong>LTC:</strong> LdjfBRihZgHdWvVhnJHpbw9vQo7mWMzxm3</p>
 		</div>
 	</footer>	
 	
